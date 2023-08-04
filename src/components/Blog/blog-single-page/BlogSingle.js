@@ -25,8 +25,9 @@ function BlogSingle() {
         <section className='single-page top'>
           <div className='container'>
             <Link to='/blog' className='primary-btn back'>
-              <i className='fas fa-long-arrow-alt-left'></i> Go Back
+               Go Back
             </Link>
+            {/* <i className='fas fa-long-arrow-alt-left'></i> */}
 
     <article className='content flex'>
         <div className="main-content">

@@ -15,7 +15,7 @@ nav ul li{
 
 nav ul li a{
     color: #fff;
-    font-weight: 100;
+    font-weight: 400;
     font-size: 15px;
     letter-spacing: 2px;
     transition: all 0.5s ease-in-out;
@@ -23,7 +23,7 @@ nav ul li a{
 }
 
 nav ul li a:hover{
-    color: rgb(107, 0, 62);
+    color: rgb(15, 1, 9);
 }
 
 .nav-links-mobile{
@@ -110,7 +110,7 @@ nav i{
 /* header */
 
 header{
-    padding: 40px 0 20px 0;
+    padding: 10px 0 10px 0;
     background-color: #fff;
 }
 
@@ -159,5 +159,14 @@ header h4{
         margin-right: 5px;
         margin-top: 10px;
     }
+
+}
+
+@media screen and (max-width: 576px) {
+    header .contact{
+        display: none;
+
+    }
+
 
 }

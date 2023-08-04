@@ -16,8 +16,8 @@ const PopularData = [
     {
       id: 3,
       image: "images/popular3.jpg",
-      country: "United States",
-      name: "United Atates",
+      country: "USA",
+      name: "USA",
       price: "$500.00",
     },
     {
@@ -25,7 +25,7 @@ const PopularData = [
       image: "images/popular4.jpg",
       country: "Thailand",
       name: "Thaliand",
-      price: "$100.00",
+      price: "$200.00",
     },
     {
       id: 5,
@@ -38,22 +38,22 @@ const PopularData = [
       id: 6,
       image: "images/popular2.jpg",
       country: "Mexico",
-      name: "Hotel Las Trojes",
+      name: "Las Trojes",
       price: "$400.00",
     },
     {
       id: 7,
       image: "images/popular3.jpg",
-      country: "United States",
-      name: "Rosen Shingle Creek",
+      country: "USA",
+      name: "Rosen Creek",
       price: "$500.00",
     },
     {
       id: 8,
       image: "images/popular4.jpg",
       country: "Thailand",
-      name: "Ansan Hotel",
-      price: "$100.00",
+      name: "Ansan",
+      price:"$200.00",
     },
   ]
   

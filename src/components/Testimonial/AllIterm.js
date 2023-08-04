@@ -6,6 +6,7 @@ import Tdata from './Tdata'
 
 
 
+
 function AllIterm() {
   return (
     <>
@@ -15,6 +16,14 @@ function AllIterm() {
        return <Cards key={index} {...value}/>
       })}
     </div>
+
+    <div>
+                
+
+                </div>
+
+    
+
    </section>
     </>
   )

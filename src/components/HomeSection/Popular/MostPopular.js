@@ -8,13 +8,15 @@ function MostPopular() {
     <section className='popular top'>
         <div className="full_container">
             <div className="heading">
-                <h1>Special Places</h1>
+                <h1>Special Packages</h1>
                 <div className="line"></div>
             </div>
             <div className='content'>
                 <Card />
             </div>
         </div>
+
+        
     </section>
     </>
   )

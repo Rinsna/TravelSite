@@ -1,6 +1,9 @@
 import React, { useState } from 'react'
 import './Contact.css'
 
+
+
+  
 function ConatctForm() {
   const [fname,setFname] = useState('')
   const [lname,setLname] = useState('')
@@ -66,13 +69,13 @@ function ConatctForm() {
             </div>
             <div className='input'>
               <span>
-                Subject <label>*</label>
+                Service <label>*</label>
               </span>
               <input type="text" name='subject' value={subject} onChange={(e)=> setSubject(e.target.value)} />
             </div>
             <div className='input'>
               <span>
-               Your Company <label>*</label>
+               Subject<label>*</label>
               </span>
               <input type="text" name='company' value={company} onChange={(e)=> setCompany(e.target.value)} />
             </div>
@@ -104,10 +107,10 @@ function ConatctForm() {
           <h3>Follow Us</h3>
           <div className="flex_space">
           <a href="https://www.facebook.com/gzonetourism" ><i className='fab fa-facebook'></i></a>
-          <a href="https://www.instagram.com/gzone_tourism/"><i className='fab fa-twitter'></i></a>
+          <a href="https://www.instagram.com/gzone_tourism/"><i className='fab fa-instagram'></i></a>
             <i className='fab fa-linkedin'></i>
-            <i className='fab fa-instagram'></i>
-            <i className='fab fa-youtube'></i>
+            <i className='fab fa-twitter'></i>
+          <a href="https://www.youtube.com/watch?v=Oq8gar8rjSw"><i className='fab fa-youtube'></i></a>
           </div>
         </div>
       </div>
@@ -135,10 +138,10 @@ function ConatctForm() {
           Email : <p>{email}</p>
         </h3>
         <h3>
-          Subject : <p>{subject}</p>
+          Service : <p>{subject}</p>
         </h3>
         <h3>
-         Your Company Name : <p>{company}</p>
+         Subject : <p>{company}</p>
         </h3>
         <h3>
           Message : <p>{message}</p>
@@ -146,6 +149,9 @@ function ConatctForm() {
       </div>
        )
       })}
+   
+
+            
     </section>
 
 

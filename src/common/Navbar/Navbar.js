@@ -20,14 +20,14 @@ function Navbar() {
         <ul className={click? "nav-menu active" : "nav-menu" }>
             <li> <Link to='/' onClick={closeMobileMenu}>Home</Link></li>
                <li><Link to='/about'  onClick={closeMobileMenu}>About</Link></li>
-               <li><Link to='/gallery' onClick={closeMobileMenu}>Gallery</Link></li>
+               <li><Link to='/gallery' onClick={closeMobileMenu}>Services</Link></li>
                <li><Link to='/destination' onClick={closeMobileMenu}>Destination</Link></li>
                <li><Link to='/blog' onClick={closeMobileMenu}>Blog</Link></li>
                <li><Link to='/testimonial' onClick={closeMobileMenu}>Testimonial</Link></li>
                <li><Link to='/contact' onClick={closeMobileMenu}>Contact Us</Link></li>
         </ul>
         <div className='login-area flex'>
-            <li>
+            {/* <li>
                 <Link to='/sign-in'>
                     <i className='far fa-chevron-right'>Sign In</i>
                 </Link>
@@ -36,7 +36,7 @@ function Navbar() {
                 <Link to='/register'>
                     <i className='far fa-chevron-right'>Register</i>
                 </Link>
-            </li>
+            </li> */}
             <li>
                 <Link to='/contact'>
                     <button className='primary-btn'>Request a Quote</button>
@@ -50,7 +50,7 @@ function Navbar() {
         <header>
             <div className='container flex_space'>
                 <div className='logo'>
-                    <img src='/images/logo.jpeg' alt='' />
+                    <img src='\images\cropped-gzone.png' />
                 </div>
 
                 <div className='contact flex_space'>

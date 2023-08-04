@@ -19,7 +19,7 @@
   .gallery .img {
     position: relative;
     overflow: hidden;
-    width: 380px;
+    /* width: 380px; */
     height: 252px;
   }
   
@@ -102,6 +102,11 @@
     right: -34.5%;
     font-weight: bold;
   }
+
+
+ 
+  
+
   @media screen and (max-width: 768px) {
     .gallery .container {
       max-width: 100%;
@@ -130,4 +135,6 @@
       right: 6.5%;
       font-weight: bold;
     }
+
+
   }

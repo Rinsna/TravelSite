@@ -14,7 +14,8 @@ function AboutCard() {
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi recusandae amet est rerum dicta, nisi dolor reprehenderit corrupti odio commodi magnam obcaecati consequatur id temporibus.  </p>
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quibusdam architecto reprehenderit obcaecati incidunt repellat, iusto impedit deserunt quam illum consequatur.</p>
        <button className='secondary-btn'>
-        Explore More <i className='fas fa-long-arrow-alt-right'></i>
+        Explore More 
+        
        </button>
     
     </div>
@@ -22,12 +23,12 @@ function AboutCard() {
 
     <div className='row image'>
         <img src="/images/about-img-1.jpg" alt="" />
-        <div className='control-btn'>
+        {/* <div className='control-btn'>
             <button className='prev'>
             <i className='fas fa-play'></i>
             </button>
             
-        </div>
+        </div> */}
     </div>
 
 

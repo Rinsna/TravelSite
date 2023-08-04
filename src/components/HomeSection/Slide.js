@@ -4,36 +4,54 @@ import Data from './Data'
 
 
 
- function Slide() {
+function Slide() {
 
-//     const[current,setCurrent]=useState(0)
-//     const length = slides.length
+    //     const[current,setCurrent]=useState(0)
+    //     const length = slides.length
 
-//     const nextSlide=()=>{
-//         setCurrent(current===length -1 ? 0 : current + 1)
-//     }
-//     const prevSlide=()=>{
-//         setCurrent(current=== 0 ? length -1 : current - 1)
-//     }
+    //     const nextSlide=()=>{
+    //         setCurrent(current===length -1 ? 0 : current + 1)
+    //     }
+    //     const prevSlide=()=>{
+    //         setCurrent(current=== 0 ? length -1 : current - 1)
+    //     }
 
-//     if(!Array.isArray(slides) || slides.length <= 0){
-//         return null
+    //     if(!Array.isArray(slides) || slides.length <= 0){
+    //         return null
 
-    return (
-       <div className='video'> <video src="/images/video.mp4" autoPlay controls className="video video__play-button"/>
+     return (
 
-    </div>)
+      <div className='video'> <video src="/images/video.mp4" autoPlay loop muted  controls className="video video__play-button" />
+
+    </div>  
+     )
 
 
+      // <iframe width="100%" height="700" src="https://www.youtube.com/embed/Oq8gar8rjSw?autoplay=1&mute=1&controls=0&&loop=1&playlist=Oq8gar8rjSw&fs=0 "  
+      // frameborder="0"
+      //  allowfullscreen   ></iframe>
 
-    }
+   //  <iframe width="100%" height="700" src="https://www.youtube.com/embed/Oq8gar8rjSw?modestbranding=1&autoplay=1&mute=1&controls=0&loop=1&playlist=Oq8gar8rjSw&fs=0" 
+   //  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media;
+   //   gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+     
 
+       
+             
     
+     
 
- 
+      
+
+
+}
+
+
+
+
 //     <>
 //     <section className='slider'>
-       
+
 
 
 //     {Data.map((slide,index)=>{

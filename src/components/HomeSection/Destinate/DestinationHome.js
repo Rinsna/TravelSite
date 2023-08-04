@@ -1,10 +1,13 @@
 import React from 'react'
 import AllItem from '../../Destinations/AllItem'
 import '../Popular/MostPopular.css'
+import Whatsapp from '../../../common/Share/Whatsapp'
+
 
 function DestinationHome() {
   return (
     <>
+   
     <section className='popular top'>
         <div className="full_container">
             <div className="heading">
@@ -15,6 +18,8 @@ function DestinationHome() {
                 <AllItem/>
             </div>
         </div>
+
+        
     </section>
     </>
   )

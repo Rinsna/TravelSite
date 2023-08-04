@@ -43,7 +43,7 @@ const Gallery = () => {
       <div className="top">
         <div>
           <h1>Gzonetourism</h1>
-          <p>Choose Your Favourite Destination</p>
+          <p>We Bring The World At Your Doorstep</p>
         </div>
         <div >
           <a href="https://www.facebook.com/gzonetourism" >
@@ -70,7 +70,6 @@ const Gallery = () => {
             <h4>Our Services</h4>
             <a href="/">GitHub</a>
             <a href="/">Issues</a>
-            <a href="/">Project</a>
             <a href="/">Twitter</a>
             </div>
             <div className="db">

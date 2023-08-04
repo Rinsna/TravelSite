@@ -13,6 +13,19 @@
     width:100% ;
 }
 
+.control-btn .next{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    right: 5%;
+}
+.control-btn .prev{
+    position: absolute;
+    top: 40%;
+    z-index: 10;
+    left: 5px;
+}
+
 
 /* slide form */
 .slide-form h2{
